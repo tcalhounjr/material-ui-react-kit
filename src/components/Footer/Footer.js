@@ -37,7 +37,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                UZO, Inc.
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -70,16 +70,15 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} 
           <a
             href="https://www.creative-tim.com?ref=mkr-footer"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            
           </a>{" "}
-          for a better web.
+          All rights reserved.
         </div>
       </div>
     </footer>
